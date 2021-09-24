@@ -24,8 +24,7 @@ def is_connected(p_list: list, user: Any) -> bool:
     :param user: пользователь
     :return: True или False
     """
-    # TODO вставить код сюда
-    result = None
+    result = p_list.count(user)
     return result
 
 
